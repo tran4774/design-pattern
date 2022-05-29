@@ -1,7 +1,6 @@
 package com.journaldev.design.bridge;
 
 public class BridgePatternTest {
-
 	public static void main(String[] args) {
 		Shape tri = new Triangle(new RedColor());
 		tri.applyColor();
@@ -9,5 +8,4 @@ public class BridgePatternTest {
 		Shape pent = new Pentagon(new GreenColor());
 		pent.applyColor();
 	}
-
 }

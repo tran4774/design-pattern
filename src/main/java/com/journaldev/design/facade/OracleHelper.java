@@ -10,11 +10,10 @@ public class OracleHelper {
 	}
 	
 	public void generateOraclePDFReport(String tableName, Connection con){
-		//get data from table and generate pdf report
+		System.out.println("Oracle PDF Report of " + tableName);
 	}
 	
 	public void generateOracleHTMLReport(String tableName, Connection con){
-		//get data from table and generate pdf report
+		System.out.println("Oracle HTML Report of " + tableName);
 	}
-	
 }
