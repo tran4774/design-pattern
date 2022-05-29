@@ -9,11 +9,8 @@ public class TVRemote {
 		
 		context.setState(tvStartState);
 		context.doAction();
-		
-		
+
 		context.setState(tvStopState);
 		context.doAction();
-		
 	}
-
 }
